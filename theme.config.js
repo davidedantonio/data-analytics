@@ -14,9 +14,9 @@ const theme = {
         width={200}
         style={{ marginRight: "1em" }}
       />
-      <h1>
+      {/* <h1>
         BI & Data Analytics <span style={{ opacity: 0.2 }} />
-      </h1>
+      </h1> */}
     </>
   ),
   head: function Head(props) {

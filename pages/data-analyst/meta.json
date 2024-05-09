@@ -1,4 +1,9 @@
 {
-  "index": "Hello, World!",
-  "world-data": "🧩  Il mondo dei dati" 
+  "index": "👋 Hello, World!",
+  "introduction": "📄 Introduzione",
+  "ruoli-competenze": "👨‍💻 Ruoli e competenze",
+  "data-analytics-tools": "🛠 Classificazione dei Tools",
+  "data-triangle-tools": "📐 Data Triangle Tools",
+  "data-types": "📊 Formato e tipi di dato",
+  "pipelines": "🚀 Pipelines"
 }
