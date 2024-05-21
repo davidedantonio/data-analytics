@@ -4,7 +4,7 @@ Argomenti trattati durante la lezione tenuta il 24/05/2024 per il corso **IFTS B
 
 - Ecco un link al sito del corso: [http://data-analytics-bi.finanza.tech/](http://data-analytics-bi.finanza.tech/)
 
-- Download Slide in [Formato PDF]()
+- Download Slide in [formato PDF](https://github.com/davidedantonio/data-analytics/blob/main/BI%20-%20Data%20Analytics.pdf)
 
 ## Step 1: Installare Node.js
 
