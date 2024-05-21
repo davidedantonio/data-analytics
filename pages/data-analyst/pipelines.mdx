@@ -58,3 +58,67 @@ strategie di vendita, marketing e altro ancora.
 Nel nostro esempio, la data pipeline è stata fondamentale per trasformare dati grezzi e poco strutturati 
 in informazioni utili e significative. Ha permesso all'azienda di comprendere meglio il comportamento 
 dei clienti, ottimizzare le operazioni e guidare le decisioni aziendali basate sui dati.
+
+
+### Importanza del Lessico e dell'Alfabetizzazione dei Dati
+
+Per capire il valore di avere un lessico specifico sui dati, consideriamo cosa significa non avere questa conoscenza. 
+Supponiamo di avere accesso a un set di dati, ma senza sapere come sono stati raccolti o trasferiti, procediamo 
+comunque con l'analisi e sviluppiamo delle intuizioni. Tuttavia, quando condividiamo i risultati, ci troviamo 
+impreparati a rispondere a domande critiche sulla provenienza e l'accuratezza dei dati. Questo è un chiaro esempio 
+di quanto sia fondamentale avere una comprensione tecnica dei dati.
+
+### Esempio Pratico
+
+Immaginiamo di essere analisti che hanno eseguito un'analisi sui dati delle transazioni finanziarie di un'azienda 
+di e-commerce. Condividiamo i risultati, ma qualcuno ci chiede se siamo sicuri dell'accuratezza dei dati e se gli 
+importi sono nella valuta originale o convertiti in USD. Rispondere con "Non lo so" può essere molto frustrante. 
+Essere competenti nella comprensione dei flussi di dati evita situazioni del genere.
+
+### La Pipeline di Dati: Dal Punto A al Punto B
+
+Una pipeline di dati descrive il percorso che i dati seguono dalla loro raccolta all'analisi. In questa lezione, 
+esamineremo diverse complessità di pipeline di dati, iniziando con una semplice e progredendo fino a una pipeline 
+avanzata.
+
+#### Pipeline di Dati di Base
+
+Immaginiamo di lavorare per un sito di e-commerce che produce dati ogni volta che un utente visita il sito. 
+Questi dati grezzi vengono inseriti direttamente in un database. I dati grezzi, in questo contesto, sono 
+non manipolati e rappresentano un flusso diretto delle attività degli utenti.
+
+<img src="./../../pipeline/semplice.png" />
+
+#### Pipeline di Dati Intermedia
+
+Nella nostra pipeline intermedia, introduciamo ulteriori fonti di dati, come un sistema di fatturazione che 
+produce dati sulle transazioni. A questo punto, notiamo un gap tra il database che contiene i dati grezzi e il
+ punto in cui iniziamo l'analisi. Qui entra in gioco il processo ETL (Extract, Transform, Load), che estrae i 
+ dati grezzi, li trasforma (ad esempio, convertendo valute) e li carica in un database analitico separato, 
+ ottimizzato per le analisi.
+
+ <img src="./../../pipeline/intermedia.png" />
+
+#### Pipeline di Dati Avanzata
+
+In una pipeline più complessa, possiamo aggiungere fonti di dati esterne, come un sistema di sondaggi post-acquisto 
+gestito da una terza parte. Per integrare questi dati nel nostro sistema, utilizziamo le API (Application 
+Programming Interfaces), che consentono di trasferire dati tra sistemi diversi. Le API sono integrate nel nostro 
+processo ETL per assicurare che i dati dei sondaggi siano direttamente disponibili nel nostro database analitico.
+
+<img src="./../../pipeline/avanzata.png" />
+
+### Ruoli e Responsabilità
+
+Vediamo infine come diverse aree funzionali si integrano nella nostra pipeline di dati:
+
+- **Ingegneria del Software**: Si occupa della creazione e manutenzione dei sistemi che generano i dati.
+- **Ingegneria dei Dati**: Gestisce le pipeline di dati e assicura che i dati vengano correttamente trasferiti e trasformati.
+- **Analisi dei Dati**: Si concentra sull'analisi dei dati trasformati e sulla condivisione degli insights.
+
+### Conclusione
+
+Questa lezione ha introdotto i concetti chiave e i termini necessari per comprendere come i dati si spostano 
+dalla raccolta all'analisi. Abbiamo esaminato esempi pratici e ipotetici per illustrare l'importanza di una 
+pipeline di dati ben strutturata. Nella prossima lezione, approfondiremo ulteriormente questi concetti con 
+schede di riepilogo e terminologia chiave.
