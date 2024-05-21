@@ -2,6 +2,10 @@
 
 Argomenti trattati durante la lezione tenuta il 24/05/2024 per il corso **IFTS Business Data Analyst**.
 
+- Ecco un link al sito del corso: [http://data-analytics-bi.finanza.tech/](http://data-analytics-bi.finanza.tech/)
+
+- Download Slide in [Formato PDF]()
+
 ## Step 1: Installare Node.js
 
 Installare Node.js è un processo abbastanza semplice e varia leggermente a seconda del sistema operativo che stai utilizzando. Ecco le istruzioni per i sistemi operativi più comuni:
